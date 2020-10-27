@@ -45,6 +45,30 @@ function generatePassword () {
     return;
   }
   
+  // create for loops for each of the confirms whether they are true or false
+  if (filterLower === true){
+    for (var i = 0; i < lowerCase.length; i++) {
+      passwordHolder.push(lowerCase[i]);
+    }
+  }
+  if (filterUpper === true){
+    for (var i = 0; i < upperCase.length; i++) {
+      passwordHolder.push(upperCase[i]);
+    }
+  }
+  if (filterNumber === true){
+    for (var i = 0; i < number.length; i++) {
+      passwordHolder.push(number[i]);
+    }
+  }
+  if (filterSymbols === true){
+    for (var i = 0; i < symbols.length; i++) {
+      passwordHolder.push(symbols[i]);
+    }
+  }
+
+  var passwordHolder = [];
+
 }
 
 // Add event listener to generate button
