@@ -22,10 +22,11 @@ function generatePassword () {
 
   // convert the string from the user input into an integer
   var numInput = +userInput;
-  
+
   // Making sure the user inouts a number that is between 8 and 128.
   if ( userInput < 8 || userInput > 128 || !numInput) {
     alert("Please choose a number that is between 8 and 128.");
+    return;
   }
   else {
     alert("Your password will be " + numInput + " characters long.");
@@ -37,11 +38,11 @@ function generatePassword () {
   var filterNumber = confirm("Do you want to have numbers in your password?");
   var filterSymbols = confirm("Do you want to have symbols in your password?");
 
-  
 
   // user has to choose at least one of the confirms above
   if (!filterLower && !filterUpper && !filterNumber && !filterSymbols) {
     alert("Please choose at least one of the conditions in order to generate your password.");
+    return;
   }
   
 }
