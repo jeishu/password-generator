@@ -7,6 +7,7 @@ I created an application that can generated a randomized password based on certa
 ## Table of Contents
 
 * [Features](#Features)
+* [Links](#Links)
 * [Screenshots](#Screenshots)
 * [Code-Example](#Code-Example)
 * [Reference](#Reference)
@@ -21,13 +22,28 @@ I created an application that can generated a randomized password based on certa
     * Let the user choose if they want to include lowercase letters, uppercase letters, numbers, or special characters,
     * Then generated a password base on their needs.
 
+## Links
+
+* [Project Repo: Password Generator](https://github.com/jeishu/password-generator)
+* [GitHub Page: Password Generator](https://jeishu.github.io/password-generator/)
+
 ## Screenshots
 
-These are desktop views:
+How the prompt looks like when the Generate Button is clicked:
 
-![landing](./images/README-pics/landingpage.jpg)
+![openingpage](./images/Screenshot_1.png)
 
+How the confirm pop up looks like:
 
+![confirms](./images/Screenshot_2.png)
+
+How the pop looks when you did not enter a number that is between 8 and 128:
+
+![notANumber](./images/Screenshot_4.png)
+
+How the password looks when it is generated:
+
+![password](./images/Screenshot_3.png)
 ## Code-Example
 
 I created an array for each of the categories and corresponding confirms. I created variables as need.
@@ -71,9 +87,7 @@ These websites aid me in creating this README.md
 
 - My class instructor, Calvin
 - My tutor, Sangeetha
-- Chase
-- Chad
-- Jared
+- My study group
 
 ## License
 
