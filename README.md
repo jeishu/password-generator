@@ -11,7 +11,7 @@ I created an application that can generated a randomized password based on certa
 * [Screenshots](#Screenshots)
 * [Code-Example](#Code-Example)
 * [Reference](#Reference)
-* [Tests/Issues](#Test/Issues)
+* [Tests/Issues](#Tests/Issues)
 * [Contribute/Credits](#Contribute/Credits)
 * [License](#License)
 
@@ -72,10 +72,10 @@ These websites aid me in creating this README.md
 ## Tests/Issues
 
 > I had a lot of issues with the funtions keep executing.
-- I use the 'return;' to stop the execution within lines 32 and 48.
+- I use the 'return;' to stop the execution within lines 31, 35 and 50.
 - This help the code to move on.
 > Changing the user input from a string to an integer 
-- I forgot to conver the string to integer and cuase the JS to not function properly.
+- I forgot to convert the string to integer and cause the JS to not function properly.
 > Order of Operations
 - I had to move some lines of code around in order for the JS to perform properly.
 ```
@@ -84,6 +84,21 @@ These websites aid me in creating this README.md
   passwordText.value = password;
 ```
 - this line of code was moved from the function writePassword() to the function generatePassword() to make the code work.
+> Cleaning up code
+- I originally created a new variable for the 'var userInput' that could convert the string to an integer, but I just combined the code and stuck with the original variable
+- Both works, but one less line.
+```
+  //New Code
+  // prompt for the user to input a number || convert the string from the user input into an integer
+  var userInput = parseInt(prompt("Please choose a number between 8 and 128.")); 
+
+  // Old code
+  var userInput = prompt("Please choose a number between 8 and 128.");
+  var numInput = parseInt(userInput); 
+
+```
+- My confirm methods were originally outside of the else statement on line 37. I moved them inside for a better order of operations.
+
 
 ## Contribute/Credits
 
@@ -93,5 +108,5 @@ These websites aid me in creating this README.md
 
 ## License
 
-MIT © [Jeremy Zhu](2020)
+MIT © [Jeremy Zhu :: jeishu](https://github.com/jeishu)
 
