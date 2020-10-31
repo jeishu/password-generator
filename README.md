@@ -62,12 +62,12 @@ These are websites I used to aid me in learning different syntax and different m
 
 > - [Developer Mozilla](https://developer.mozilla.org/en-US/) || I had a lot of difficulty learning different methods and this website helps
 > - [W3School](https://www.w3schools.com/) || Learn many tricks (prompt(), confirm(), for loops, if statement, return, etc)
+> - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) || For most of my JavaScript needs.
 
 These websites aid me in creating this README.md
 
 > - [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) || Learn most of my README syntax here.
 > - [Akash Nimare](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3) || Based my README from his person.
-> - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) || For ,ost of my JavaScript needs.
 
 ## Tests/Issues
 
