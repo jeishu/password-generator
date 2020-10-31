@@ -67,7 +67,7 @@ These websites aid me in creating this README.md
 
 > - [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax) || Learn most of my README syntax here.
 > - [Akash Nimare](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3) || Based my README from his person.
-> - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) || Watched his basics to HTML and CSS and other video to help create this website.
+> - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) || For ,ost of my JavaScript needs.
 
 ## Tests/Issues
 
@@ -88,7 +88,7 @@ These websites aid me in creating this README.md
 - I originally created a new variable for the 'var userInput' that could convert the string to an integer, but I just combined the code and stuck with the original variable
 - Both works, but one less line.
 ```
-  //New Code
+  // New Code
   // prompt for the user to input a number || convert the string from the user input into an integer
   var userInput = parseInt(prompt("Please choose a number between 8 and 128.")); 
 
